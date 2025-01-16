@@ -1,6 +1,8 @@
 <template>
     <Menu/>
-
+    <div class="packaging-header">
+        
+    </div>
 </template>
 
 <script setup>

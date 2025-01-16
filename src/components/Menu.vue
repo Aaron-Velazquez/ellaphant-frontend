@@ -58,6 +58,7 @@ const toggleMenu = () => {
 }
 
 .menu {
+    z-index: 100;
     transform: translateX(150px);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
     position: absolute;
