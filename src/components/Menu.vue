@@ -62,7 +62,7 @@ const toggleMenu = () => {
     transform: translateX(150px);
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
     position: absolute;
-    border-radius: 50px;
+    border-radius: 30px;
     top: 20px;
     padding: 0 50px;
     display: flex;
@@ -129,7 +129,7 @@ const toggleMenu = () => {
 }
 .contacto{
     background-color: var(--blue);
-    border-radius: 10px;
+    border-radius: 30px;
 }
 .contacto a{
     color: #fff;

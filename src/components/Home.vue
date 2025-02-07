@@ -1,21 +1,22 @@
 
 <template>
-  <main class="header-container">
-    <figure>
-      <img src="/img/principal-index.webp" alt="Servicios de diseño gráfico y desarrollo web">
-    </figure>
-    <div class="header-text">
-      <h1>Somos una manada <br><b>creativa</b></h1>
-      <p>Bienvenido a Ellaphant</p>
-      <a href="/contacto">Empieza ya</a>
-    </div>
-  </main>
-  <Menu />
-  <section class="servicio-index">
-    <h2>Enriquece tu marca <br> <b>Con nuestros <strong>servicios</strong></b></h2>
-    <div class="servicios-cards">
-      <div class="servicio-card" id="webs">
-        <div class="dropdown-card">
+  <div class="header-background">
+    <main class="header-container">
+      <figure>
+        <img src="/img/principal-index.webp" alt="Servicios de diseño gráfico y desarrollo web">
+      </figure>
+      <div class="header-text">
+        <h1>Somos una manada <br><b>creativa</b></h1>
+        <p>Bienvenido a Ellaphant</p>
+        <a href="/contacto">Empieza ya</a>
+      </div>
+    </main>
+    <Menu />
+    <section class="servicio-index">
+      <h2>Enriquece tu marca <br> <b>Con nuestros <strong>servicios</strong></b></h2>
+      <div class="servicios-cards">
+        <div class="servicio-card" id="webs">
+          <div class="dropdown-card">
           <div class="service">
             <span>Webs</span>
             <img src="/img/index-webs.svg" alt="Web icon">
@@ -37,33 +38,36 @@
           <p>Impulsamos tus redes para llegar a <b>más personas</b></p>
           <span>Redes Sociales</span>
         </div>
-    </div>
-    <div class="servicio-card" id="branding">
-      <div class="dropdown-card">
-        <div class="service">
+      </div>
+      <div class="servicio-card" id="branding">
+        <div class="dropdown-card">
+          <div class="service">
+            <span>Branding</span>
+            <img src="/img/index-branding.svg" alt="Branding icon">
+          </div>
+        </div>
+        <div class="card">
+          <p>Te creamos una identidad de marca <b>perfecta</b> para <b>tu negocio</b></p>
           <span>Branding</span>
-          <img src="/img/index-branding.svg" alt="Branding icon">
         </div>
       </div>
-      <div class="card">
-        <p>Te creamos una identidad de marca <b>perfecta</b> para <b>tu negocio</b></p>
-        <span>Branding</span>
-      </div>
-    </div>
-    <div class="servicio-card" id="packaging">
-      <div class="dropdown-card">
-        <div class="service">
+      <div class="servicio-card" id="packaging">
+        <div class="dropdown-card">
+          <div class="service">
+            <span>Packaging</span>
+            <img src="/img/index-packaging.svg" alt="Packaging icon">
+          </div>
+        </div>
+        <div class="card">
+          <p>Hacemos que tus empaques sean <b>bonitos</b> y <b>funcionales</b></p>
           <span>Packaging</span>
-          <img src="/img/index-packaging.svg" alt="Packaging icon">
         </div>
       </div>
-      <div class="card">
-        <p>Hacemos que tus empaques sean <b>bonitos</b> y <b>funcionales</b></p>
-        <span>Packaging</span>
-      </div>
     </div>
-  </div>
   </section>
+</div>
+  
+
   <section class="nosotros">
     <div class="nosotros-title">
       <h2>Sobre nosotros</h2>
@@ -136,8 +140,23 @@
   main{
     padding: 0.1px;
   }
+  .header-background{
+    background: radial-gradient(
+      circle at 0% 45%, 
+      rgba(232, 168, 124, 0.5),
+      rgba(178, 210, 255, 0) 30%
+    ),
+    radial-gradient(
+      circle at 100% 0%, 
+      rgba(240, 230, 140, 0.5),
+      rgba(255, 217, 193, 0) 30%
+    );
+  /* Ajusta si deseas un fondo fijo al hacer scroll */
+  background-attachment:initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
   .header-container {
-    background: linear-gradient(135deg, #E8FAFF 0%, #e6ecff 50%, #E8FAFF 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,8 +194,8 @@
     font-size: 1.5rem;
     text-decoration: none;
     color: #333;
-    padding: 0.5rem 1rem;
-    border-radius: 12px;
+    padding: 0.5rem 30px;
+    border-radius: 30px;
     color: #fff;
     background-color: var(--blue);
     transition: background-color 0.3s;
@@ -207,6 +226,10 @@
     width: 17rem;
     border-radius: 30px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+   }
+   .servicio-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.7s;
    }
   .dropdown-card .service{
      border-top-left-radius: 30px;
