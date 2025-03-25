@@ -1,6 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 @font-face {
     font-family: 'Rosehot';
-    src: url('@/assets/fonts/rosehot/rosehot-rosehot-400.otf') format('otf');
+    src: url('../fonts/rosehot/rosehot-rosehot-400.otf') format('otf'),
+         url('../fonts/rosehot/rosehot-rosehot-400.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
   }
+  /*
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-Italic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-BoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-LightItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-Thin.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-ThinItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-ExtraLightItalic.ttf') format('ttf');
+    font-weight: 200;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-MediumItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-ExtraBold.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: 800;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-Black.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/Josefin/JosefinSans-BlackItalic.ttf') format('ttf');
+    font-weight: 900;
+    font-style: italic;
+  }*/
